@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record model='base.format' id='format_cm_1'>
+            <field name='name'>110x180cm</field>
+            <field name='format_uom' ref='product_uom_cm'/>
+            <field name='width'>110</field>
+            <field name='height'>180</field>
+        </record>
+        <record model='base.format' id='format_cm_2'>
+            <field name='name'>134x204cm</field>
+            <field name='format_uom' ref='product_uom_cm'/>
+            <field name='width'>134</field>
+            <field name='height'>204</field>
+        </record>
+        <record model='base.format' id='format_cm_3'>
+            <field name='name'>148x210cm</field>
+            <field name='format_uom' ref='product_uom_cm'/>
+            <field name='width'>148</field>
+            <field name='height'>210</field>
+        </record>
+        <record model='base.format' id='format_cm_4'>
+            <field name='name'>150x220cm</field>
+            <field name='format_uom' ref='product_uom_cm'/>
+            <field name='width'>150</field>
+            <field name='height'>220</field>
+        </record>
+        <record model='base.format' id='format_cm_5'>
+            <field name='name'>160x240cm</field>
+            <field name='format_uom' ref='product_uom_cm'/>
+            <field name='width'>160</field>
+            <field name='height'>240</field>
+        </record>
+        <record model='base.format' id='format_cm_6'>
+            <field name='name'>210x297cm</field>
+            <field name='format_uom' ref='product_uom_cm'/>
+            <field name='width'>210</field>
+            <field name='height'>297</field>
+        </record>
+
+        <record model='base.format' id='format_inches_1'>
+            <field name='name'>4.25x7inches</field>
+            <field name='format_uom' ref='product.product_uom_inch'/>
+            <field name='width'>4.25</field>
+            <field name='height'>7</field>
+        </record>
+        <record model='base.format' id='format_inches_2'>
+            <field name='name'>5.5x8.25inches</field>
+            <field name='format_uom' ref='product.product_uom_inch'/>
+            <field name='width'>5.5</field>
+            <field name='height'>8.25</field>
+        </record>
+        <record model='base.format' id='format_inches_3'>
+            <field name='name'>5.5x8.5inches</field>
+            <field name='format_uom' ref='product.product_uom_inch'/>
+            <field name='width'>5.5</field>
+            <field name='height'>8.5</field>
+        </record>
+        <record model='base.format' id='format_inches_4'>
+            <field name='name'>6x9inches</field>
+            <field name='format_uom' ref='product.product_uom_inch'/>
+            <field name='width'>6</field>
+            <field name='height'>9</field>
+        </record>
+        <record model='base.format' id='format_inches_5'>
+            <field name='name'>8.5x11inches</field>
+            <field name='format_uom' ref='product.product_uom_inch'/>
+            <field name='width'>8.5</field>
+            <field name='height'>11</field>
+        </record>
+
+
+    </data>
+</openerp>
