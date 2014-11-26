@@ -1,0 +1,185 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* publication_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-04 17:26+0000\n"
+"PO-Revision-Date: 2014-11-04 17:26+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: publication_management
+#: model:ir.actions.act_window,help:publication_management.action_publication_management
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                    Click to create a new publication.\n"
+"                </p>\n"
+"            "
+msgstr ""
+
+#. module: publication_management
+#: field:publication.management,author:0
+msgid "Author"
+msgstr "Auteur"
+
+#. module: publication_management
+#: view:publication.management:publication_management.publication_management_view_kanban
+msgid "Author:"
+msgstr "Auteur:"
+
+#. module: publication_management
+#: view:publication.management:publication_management.publication_management_view_form
+msgid "Categories..."
+msgstr "Catégories..."
+
+#. module: publication_management
+#: field:publication.management,category:0
+msgid "Category"
+msgstr "Catégorie"
+
+#. module: publication_management
+#: model:ir.model,name:publication_management.model_publication_category
+msgid "Category of publication"
+msgstr "Catégorie d'oeuvre"
+
+#. module: publication_management
+#: view:publication.management:publication_management.publication_management_view_form
+msgid "Create/Modify versions"
+msgstr "Créer/Modifier des versions"
+
+#. module: publication_management
+#: field:publication.category,create_uid:0
+#: field:publication.genre,create_uid:0
+#: field:publication.management,create_uid:0
+msgid "Created by"
+msgstr "Crée par"
+
+#. module: publication_management
+#: field:publication.category,create_date:0
+#: field:publication.genre,create_date:0
+#: field:publication.management,create_date:0
+msgid "Created on"
+msgstr "Crée le"
+
+#. module: publication_management
+#: field:publication.management,name:0
+msgid "Description"
+msgstr "Description"
+
+#. module: publication_management
+#: field:publication.management,genre:0
+msgid "Genre"
+msgstr "Genre"
+
+#. module: publication_management
+#: model:ir.model,name:publication_management.model_publication_genre
+msgid "Genre of publication"
+msgstr "Genre de l'oeuvre"
+
+#. module: publication_management
+#: view:publication.management:publication_management.publication_management_view_form
+msgid "Genres..."
+msgstr "Genres..."
+
+#. module: publication_management
+#: field:publication.category,id:0
+#: field:publication.genre,id:0
+#: field:publication.management,id:0
+msgid "ID"
+msgstr "Code"
+
+#. module: publication_management
+#: field:publication.management,image:0
+msgid "Image"
+msgstr "Image"
+
+#. module: publication_management
+#: field:publication.category,write_uid:0
+#: field:publication.genre,write_uid:0
+#: field:publication.management,write_uid:0
+msgid "Last Updated by"
+msgstr "Dernièrement mis-à-jour par"
+
+#. module: publication_management
+#: field:publication.category,write_date:0
+#: field:publication.genre,write_date:0
+#: field:publication.management,write_date:0
+msgid "Last Updated on"
+msgstr "Dernièrement mis-à-jour le"
+
+#. module: publication_management
+#: help:publication.management,image_medium:0
+msgid "Medium-sized image of this publication. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views.."
+msgstr "Taille d'image moyenne de cette oeuvre. L'image sera automatiquement redimensionnée en 128x128px, avec son ratio d'aspect conservé. Utilisez ce champ en vue formulaire ou certaines vues kanban.."
+
+#. module: publication_management
+#: field:publication.management,image_medium:0
+msgid "Medium-sized photo"
+msgstr "Photo taille moyenne"
+
+#. module: publication_management
+#: field:publication.category,name:0
+#: field:publication.genre,name:0
+msgid "Name"
+msgstr "Nom"
+
+#. module: publication_management
+#: field:publication.management,nb_version:0
+msgid "Nb Version"
+msgstr "Nombre de version"
+
+#. module: publication_management
+#: view:publication.management:publication_management.publication_management_view_kanban
+msgid "Nb version:"
+msgstr "Nombre de version:"
+
+#. module: publication_management
+#: field:publication.management,partner_id:0
+msgid "Partner"
+msgstr "Partenaire"
+
+#. module: publication_management
+#: model:ir.model,name:publication_management.model_product_template
+msgid "Product Template"
+msgstr "Gabarit Produit"
+
+#. module: publication_management
+#: field:product.template,publication:0
+msgid "Publication"
+msgstr "Oeuvre"
+
+#. module: publication_management
+#: model:ir.model,name:publication_management.model_publication_management
+#: model:ir.ui.menu,name:publication_management.menu_publication_management
+#: view:publication.management:publication_management.publication_management_search
+#: view:publication.management:publication_management.publication_management_view_form
+#: view:publication.management:publication_management.publication_management_view_tree
+msgid "Publication Management"
+msgstr "Gestion des oeuvres"
+
+#. module: publication_management
+#: model:ir.actions.act_window,name:publication_management.action_publication_management
+msgid "Publications"
+msgstr "Oeuvres"
+
+#. module: publication_management
+#: help:publication.management,image:0
+msgid "This field holds the image used as avatar for this contact,limited to 1024x1024px"
+msgstr "Ce champ contient une imaga utilisée en avatar pour ce contact, avec comme dimensions une limite de 1024x1024px"
+
+#. module: publication_management
+#: field:publication.management,title:0
+msgid "Title"
+msgstr "Titre"
+
+#. module: publication_management
+#: field:publication.management,version:0
+msgid "Versions"
+msgstr "Versions"
+

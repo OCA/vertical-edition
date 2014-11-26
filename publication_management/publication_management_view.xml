@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE openerp SYSTEM "openerp.dtd">
+<openerp>
+    <data>
+        <record id="publication_management_view_form" model="ir.ui.view">
+            <field name="name">view.publication.management.form</field>
+            <field name="model">publication.management</field>
+            <field name="arch" type="xml">
+                <form string="Publication Management">
+                    <sheet>
+                        <field name="id" invisible="True"/>
+                        <div class="oe_right oe_button_box" style="width: 300px;"
+                             name="buttons">
+                            <button class="oe_inline oe_stat_button"
+                                    style="width:200px !important"
+                                    name="action_view_versions"
+                                    type="object"
+                                    string="Create/Modify versions"
+                                    icon="fa-bars"/>
+                        </div>
+                        <field name="image_medium" widget='image'
+                               class="oe_left oe_avatar"
+                               options='{"preview_image": "image_medium"}'/>
+                        <div class="oe_title">
+                            <label for="title"/>
+                            <h1>
+                                <field name="title" colspan="12"/>
+                            </h1>
+                            <field name="partner_id" readonly="1"/>
+                            <field name="genre" colspan="4" widget="many2many_tags"
+                                   placeholder=" Genres..."/>
+                            <field name="category" colspan="4" widget="many2many_tags"
+                                   placeholder=" Categories..."/>
+                        </div>
+                        <group>
+                            <field name="author"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="publication_management_view_tree" model="ir.ui.view">
+            <field name="name">view.publication.management.tree</field>
+            <field name="model">publication.management</field>
+            <field name="arch" type="xml">
+                <tree string="Publication Management">
+                    <field name="title"/>
+                    <field name="author"/>
+                    <field name="genre"/>
+                    <field name="category"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="publication_management_view_kanban" model="ir.ui.view">
+            <field name="name">view.publication.management.kanban</field>
+            <field name="model">publication.management</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="image_medium"/>
+                    <field name="title"/>
+                    <field name="author"/>
+                    <field name="partner_id"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_vignette oe_semantic_html_override">
+                                <a type="open">
+                                    <img
+                                            t-att-src="kanban_image('publication.management', 'image_medium', record.id.value)"
+                                            class="oe_kanban_image"/>
+                                </a>
+                                <div class="oe_kanban_details">
+                                    <h4>
+                                        <a type="open">
+                                            <field name="title"/>
+                                        </a>
+                                    </h4>
+                                    <div name="tags"/>
+                                    <ul>
+                                        <li>Author:
+                                            <field name="author"/>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <record id="publication_management_search" model="ir.ui.view">
+            <field name="name">publication.management.search</field>
+            <field name="model">publication.management</field>
+            <field name="type">search</field>
+            <field name="arch" type="xml">
+                <search string="Publication Management">
+                    <field name="title"/>
+                    <field name="author"/>
+                    <field name="genre"/>
+                    <field name="category"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="action_publication_management" model="ir.actions.act_window">
+            <field name="name">Publications</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">publication.management</field>
+            <field name="view_mode">kanban,form,tree</field>
+            <field name="view_type">form</field>
+            <field name="search_view_id" ref="publication_management_search"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Click to create a new publication.
+                </p>
+            </field>
+        </record>
+
+        <menuitem action="action_publication_management"
+                  id="menu_publication_management" name="Publication Management"
+                  groups="base.group_user"
+                  parent="base.menu_product" sequence="0"/>
+
+    </data>
+</openerp>
+

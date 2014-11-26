@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_publication_management_user,access_publication_management,model_publication_management,base.group_user,1,1,1,0
+access_publication_genre_user,access_publication_genre,model_publication_genre,base.group_user,1,1,1,0
+access_publication_category_user,access_publication_category,model_publication_category,base.group_user,1,1,1,0
+access_publication_management,access_publication_management,model_publication_management,base.group_system,1,1,1,1
+access_publication_genre,access_publication_genre,model_publication_genre,base.group_system,1,1,1,1
+access_publication_category,access_publication_category,model_publication_category,base.group_system,1,1,1,1
