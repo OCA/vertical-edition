@@ -33,7 +33,7 @@
 Publication Management
 ======================
 This module adds a new menu entry, "publication (en), oeuvre (fr)".
-It was created in order to regroup different versions (product.product) under \
+It was created in order to regroup different versions (product.product) under
 one same parent publication.
 It also adds search and kanban views.
 
@@ -45,10 +45,10 @@ Contributors
 * William Beverly <william.beverly@savoirfairelinux.com>
 * Bruno Joliveau <bruno.joliveau@savoirfairelinux.com>
 
-More informations
+More information
 -----------------
 Module developed and tested with Odoo version 8.0
-For questions, please contact our support services \
+For questions, please contact our support services
 (support@savoirfairelinux.com)
 """,
     'depends': [
