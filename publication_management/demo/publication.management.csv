@@ -1,0 +1,4 @@
+"id","author","category/id","genre/id","partner_id/id","title"
+"publication_management_great_gatsby","Francis Scott Fitzgerald","publication_management.category_literary","publication_management.genre_romance","base.partner_root","The Great Gatsby"
+"publication_management_dorian_gray","Oscar Wilde","publication_management.category_classics","publication_management.genre_fiction","base.partner_demo","The Picture of Dorian Gray"
+

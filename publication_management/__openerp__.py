@@ -63,7 +63,11 @@ For questions, please contact our support services
         'publication_management_sequence.xml',
         'security/ir.model.access.csv',
     ],
-    'demo': [],
+    'demo': [
+        'demo/publication.category.csv',
+        'demo/publication.genre.csv',
+        'demo/publication_management.xml',
+    ],
     'test': [],
     'installable': True,
 }
