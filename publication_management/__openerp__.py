@@ -44,6 +44,7 @@ Contributors
 * Mathieu Benoit <mathieu.benoit@savoirfairelinux.com>
 * William Beverly <william.beverly@savoirfairelinux.com>
 * Bruno Joliveau <bruno.joliveau@savoirfairelinux.com>
+* El Hadji Dem  <elhadji.dem@savoirfairelinux.com>
 
 More information
 -----------------
