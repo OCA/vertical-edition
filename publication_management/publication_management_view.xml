@@ -26,7 +26,7 @@
                             <h1>
                                 <field name="title" colspan="12"/>
                             </h1>
-                            <field name="partner_id" readonly="0"/>
+                            <field name="partner_id" readonly="1"/>
                             <field
                               name="genre" colspan="4"
                               widget="many2many_tags"

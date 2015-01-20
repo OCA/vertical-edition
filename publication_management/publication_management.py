@@ -40,12 +40,6 @@ class publication_management(orm.Model):
         vals['name'] = self.pool.get('ir.sequence').get(
             cr, uid, 'seq.publication.management'
         )
-        # Adding a condition here or even if a PM is created with a
-        # partner_id in the context, the partner_id will be the one from
-        # the user.
-        if not vals.get('partner_id'):
-            user = self.pool.get('res.users').browse(cr, uid, uid)
-            vals['partner_id'] = user.partner_id.parent_id.id
         return super(publication_management, self).create(
             cr, uid, vals, context
         )
@@ -94,6 +88,20 @@ class publication_management(orm.Model):
                                      id2='publication_category_id',
                                      string='Category'),
     }
+
+    _defaults = {
+        'partner_id': lambda self, *a, **kw: self._get_parent_id(
+            *a, **kw
+        ),
+    }
+
+    def _get_parent_id(self, cr, uid, ids, context=None):
+        """Return the parent_id"""
+        user = self.pool.get('res.users').browse(
+            cr, uid, uid, context=context
+        )
+        return user.partner_id.parent_id.id
+
 
     @api.multi
     def action_view_versions(self):
