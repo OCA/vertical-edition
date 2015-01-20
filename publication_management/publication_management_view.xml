@@ -28,9 +28,9 @@
                             </h1>
                             <field name="partner_id" readonly="1"/>
                             <field name="genre" colspan="4" widget="many2many_tags"
-                                   placeholder=" Genres..."/>
+                                   placeholder=" Genres (ex: novel, poetry, thriller)"/>
                             <field name="category" colspan="4" widget="many2many_tags"
-                                   placeholder=" Categories..."/>
+                                   placeholder=" Categories (ex: language, collection, format)"/>
                         </div>
                         <group>
                             <field name="author"/>
