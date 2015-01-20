@@ -62,6 +62,8 @@ For questions, please contact our support services
     'data': [
         'publication_management_view.xml',
         'publication_management_sequence.xml',
+        'publication_category_view.xml',
+        'publication_genre_view.xml',
         'security/ir.model.access.csv',
     ],
     'demo': [
