@@ -119,7 +119,19 @@ class publication_genre(orm.Model):
 
     _columns = {
         'name': fields.char('Name', size=128, required=True),
+        'partner_id': fields.many2one('res.partner', string='Partner'),
     }
+
+    def create(self, cr, uid, vals, context=None):
+        # Adding a condition here or even if a PM is created with a
+        # partner_id in the context, the partner_id will be the one from
+        # the user.
+        if not vals.get('partner_id'):
+            user = self.pool.get('res.users').browse(cr, uid, uid)
+            vals['partner_id'] = user.partner_id.parent_id.id
+        return super(publication_genre, self).create(
+            cr, uid, vals, context
+        )
 
 
 class publication_category(orm.Model):
@@ -131,4 +143,16 @@ class publication_category(orm.Model):
 
     _columns = {
         'name': fields.char('Name', size=128, required=True),
+        'partner_id': fields.many2one('res.partner', string='Partner'),
     }
+
+    def create(self, cr, uid, vals, context=None):
+        # Adding a condition here or even if a PM is created with a
+        # partner_id in the context, the partner_id will be the one from
+        # the user.
+        if not vals.get('partner_id'):
+            user = self.pool.get('res.users').browse(cr, uid, uid)
+            vals['partner_id'] = user.partner_id.parent_id.id
+        return super(publication_category, self).create(
+            cr, uid, vals, context
+        )
