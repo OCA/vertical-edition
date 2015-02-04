@@ -1,0 +1,68 @@
+# -*- encoding: utf-8 -*-
+##############################################################################
+#
+#    OpenERP, Open Source Management Solution
+#    This module copyright (C) 2010 - 2014 Savoir-faire Linux
+#    (<http://www.savoirfairelinux.com>).
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU Affero General Public License as
+#    published by the Free Software Foundation, either version 3 of the
+#    License, or (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU Affero General Public License for more details.
+#
+#    You should have received a copy of the GNU Affero General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+##############################################################################
+
+{
+    'name': 'Product Template Book Weight Calculation',
+    'version': '0.1',
+    'author': 'Savoir-faire Linux',
+    'maintainer': 'Savoir-faire Linux',
+    'website': 'http://www.savoirfairelinux.com',
+    'license': 'AGPL-3',
+    'category': 'Others',
+    'summary': 'This module permits to calculate the weight of a book.',
+    'description': """
+Product Template Book Weight Calculation
+==============
+Implementation of the maths to calculate the weight of a book.
+
+The maths for the calculation are following:
+
+a(x/2) + b
+
+where:
+* a = Weight of one page of the book (Height (m) * Width (m) *
+Weight of the paper (kg))
+* b = Number of pages of the book
+* c = Weight of the cover
+
+Contributors
+------------
+
+* Jordi RIERA (jordi.riera@savoirfairelinux.com)
+* Bruno JOLIVEAU (bruno.joliveau@savoirfairelinux.com)
+* Guillaume AUGER (guillaume.auger@savoirfairelinux.com)
+
+More information
+----------------
+
+Module developed and tested with Odoo version 8.0.
+For questions, please contact our support services
+(support@savoirfairelinux.com)
+
+""",
+    'depends': ["product"],
+    'external_dependencies': {
+        'python': [],
+    },
+    'data': [],
+    'installable': True,
+}
