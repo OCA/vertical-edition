@@ -22,7 +22,7 @@
 
 {
     'name': 'Product Template Book Weight Calculation',
-    'version': '0.1',
+    'version': '1.0',
     'author': 'Savoir-faire Linux',
     'maintainer': 'Savoir-faire Linux',
     'website': 'http://www.savoirfairelinux.com',
