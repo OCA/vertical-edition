@@ -29,36 +29,6 @@
     'license': 'AGPL-3',
     'category': 'Others',
     'summary': 'This module permits to calculate the weight of a book.',
-    'description': """
-Product Template Book Weight Calculation
-==============
-Implementation of the maths to calculate the weight of a book.
-
-The maths for the calculation are following:
-
-a(x/2) + b
-
-where:
-* a = Weight of one page of the book (Height (m) * Width (m) *
-Weight of the paper (kg))
-* b = Number of pages of the book
-* c = Weight of the cover
-
-Contributors
-------------
-
-* Jordi RIERA (jordi.riera@savoirfairelinux.com)
-* Bruno JOLIVEAU (bruno.joliveau@savoirfairelinux.com)
-* Guillaume AUGER (guillaume.auger@savoirfairelinux.com)
-
-More information
-----------------
-
-Module developed and tested with Odoo version 8.0.
-For questions, please contact our support services
-(support@savoirfairelinux.com)
-
-""",
     'depends': ["product"],
     'external_dependencies': {
         'python': [],
