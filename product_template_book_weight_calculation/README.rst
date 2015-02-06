@@ -1,6 +1,10 @@
 Product Template Book Weight Calculation
-==============
-Implementation of the maths to calculate the weight of a book.
+========================================
+This module was written to add the implementation of the 
+maths to calculate the weight of a book.
+
+Usage
+=====
 
 The maths for the calculation are following:
 
@@ -11,6 +15,9 @@ where:
 Weight of the paper (kg))
 * b = Number of pages of the book
 * c = Weight of the cover
+
+Credits
+=======
 
 Contributors
 ------------
@@ -25,5 +32,3 @@ More information
 Module developed and tested with Odoo version 8.0.
 For questions, please contact our support services
 (support@savoirfairelinux.com)
-
-
