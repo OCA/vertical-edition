@@ -24,7 +24,6 @@ from openerp import models
 _logger = logging.getLogger(__name__)
 
 
-
 class product_template(models.Model):
     _inherit = 'product.template'
 
