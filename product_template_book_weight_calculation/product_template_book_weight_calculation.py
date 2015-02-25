@@ -19,9 +19,10 @@
 #
 
 import logging
+from openerp import models
+
 _logger = logging.getLogger(__name__)
 
-from openerp import models
 
 
 class product_template(models.Model):
