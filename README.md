@@ -2,3 +2,12 @@
 [![Coverage Status](https://coveralls.io/repos/OCA/edition-mgmt/badge.png?branch=8.0)](https://coveralls.io/r/OCA/edition-mgmt?branch=8.0)
 
 # Edition Management
+
+[//]: # (addons)
+Available addons
+----------------
+addon | version | summary
+--- | --- | ---
+[product_template_book_weight_calculation](product_template_book_weight_calculation/) | 1.0 | This module permits to calculate the weight of a book.
+
+[//]: # (end addons)
