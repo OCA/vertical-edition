@@ -34,5 +34,5 @@
         'python': [],
     },
     'data': [],
-    'installable': True,
+    'installable': False,
 }
