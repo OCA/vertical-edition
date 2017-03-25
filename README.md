@@ -4,6 +4,7 @@
 # Edition Management
 
 [//]: # (addons)
+
 Available addons
 ----------------
 addon | version | summary
