@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="publication_management_great_gatsby" model="publication.management">
+            <field name="title">The Great Gasby</field>
+            <field name="partner_id" ref="base.partner_root"/>
+            <field name="category" eval="[(4, ref('publication_management.category_literary'))]"/>
+            <field name="genre" eval="[(4, ref('publication_management.genre_romance'))]"/>
+            <field name="image_medium" type="base64" file="publication_management/static/img/great_gasby.jpg"/>
+            <field name="author">Francis Scott Fitzgerald</field>
+        </record>
+        <record id="publication_management_dorian_gray" model="publication.management">
+            <field name="title">The Great Gasby</field>
+            <field name="partner_id" ref="base.partner_demo"/>
+            <field name="category" eval="[(4, ref('publication_management.category_classics'))]"/>
+            <field name="genre" eval="[(4, ref('publication_management.genre_fiction'))]"/>
+            <field name="image_medium" type="base64" file="publication_management/static/img/dorian_gray.jpg"/>
+            <field name="author">Oscar Wilde</field>
+        </record>
+    </data>
+</openerp>
