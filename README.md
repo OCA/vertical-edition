@@ -7,8 +7,8 @@
 
 Unported addons
 ---------------
-addon | version | summary
---- | --- | ---
-[product_template_book_weight_calculation](product_template_book_weight_calculation/) | 8.0.1.0.0 (unported) | This module permits to calculate the weight of a book.
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[product_template_book_weight_calculation](product_template_book_weight_calculation/) | 8.0.1.0.0 (unported) |  | This module permits to calculate the weight of a book.
 
 [//]: # (end addons)
