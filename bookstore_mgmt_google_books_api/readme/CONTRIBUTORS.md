@@ -1,3 +1,4 @@
 - \[APSL-Nagarro\](<https://apsl.tech>):
   - Miquel Alzanillas \<<malzanillas@apsl.net>\>
   - Antoni Marroig \<<amarroig@apsl.net>\>
+  - Bernat Obrador \<<bobrador@apsl.net>\>

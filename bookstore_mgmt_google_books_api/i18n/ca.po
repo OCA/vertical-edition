@@ -6,11 +6,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-13 15:45+0000\n"
-"PO-Revision-Date: 2024-11-13 15:45+0000\n"
+"POT-Creation-Date: 2025-01-16 10:02+0000\n"
+"PO-Revision-Date: 2025-01-16 10:02+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -18,16 +17,14 @@ msgstr ""
 
 #. module: bookstore_mgmt_google_books_api
 #. odoo-python
-#: code:addons/bookstore_mgmt_google_books_api/models/product_product.py:0
-#: code:addons/bookstore_mgmt_google_books_api/models/product_template.py:0
+#: code:addons/bookstore_mgmt_google_books_api/models/google_books_mixin.py:0
 #, python-format
 msgid "Book data updated from Google Books API"
 msgstr "Dades actualitzades des de l'API de Google Books"
 
 #. module: bookstore_mgmt_google_books_api
 #. odoo-python
-#: code:addons/bookstore_mgmt_google_books_api/models/product_product.py:0
-#: code:addons/bookstore_mgmt_google_books_api/models/product_template.py:0
+#: code:addons/bookstore_mgmt_google_books_api/models/google_books_mixin.py:0
 #, python-format
 msgid "ISBN code is mandatory. Please, provide one."
 msgstr "El codi ISBN és obligatori. Si us plau, proporcioneu-ne un."
@@ -40,8 +37,7 @@ msgstr "Importa la informació del llibre"
 
 #. module: bookstore_mgmt_google_books_api
 #. odoo-python
-#: code:addons/bookstore_mgmt_google_books_api/models/product_product.py:0
-#: code:addons/bookstore_mgmt_google_books_api/models/product_template.py:0
+#: code:addons/bookstore_mgmt_google_books_api/models/google_books_mixin.py:0
 #, python-format
 msgid "Not book found with this data"
 msgstr "No s'ha trobat cap llibre amb aquestes dades"
@@ -58,9 +54,13 @@ msgstr "Variant de producte"
 
 #. module: bookstore_mgmt_google_books_api
 #. odoo-python
-#: code:addons/bookstore_mgmt_google_books_api/models/product_product.py:0
-#: code:addons/bookstore_mgmt_google_books_api/models/product_template.py:0
+#: code:addons/bookstore_mgmt_google_books_api/models/google_books_mixin.py:0
 #: code:addons/bookstore_mgmt_google_books_api/tests/test_google_books_api.py:0
 #, python-format
 msgid "Warning"
 msgstr "Avís"
+
+#. module: bookstore_mgmt_google_books_api
+#: model:ir.model,name:bookstore_mgmt_google_books_api.model_google_books_mixin
+msgid "google.books.mixin"
+msgstr ""

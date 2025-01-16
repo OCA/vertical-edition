@@ -88,4 +88,4 @@ Current `maintainers <https://odoo-community.org/page/maintainer-role>`__:
 
 This module is part of the `OCA/vertical-edition <https://github.com/OCA/vertical-edition/tree/17.0/bookstore_mgmt>`_ project on GitHub.
 
-You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
+You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute. 
