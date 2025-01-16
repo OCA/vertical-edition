@@ -8,7 +8,7 @@
     "category": "Misc",
     "license": "AGPL-3",
     "maintainers": ["peluko00", "miquelalzanillas"],
-    "version": "17.0.1.1.0",
+    "version": "17.0.1.2.0",
     "depends": ["bookstore_mgmt", "web_notify"],
     "external_dependencies": {
         "python": ["google-books-api-wrapper", "Unidecode"],

@@ -21,8 +21,8 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[bookstore_mgmt](bookstore_mgmt/) | 17.0.1.0.1 | [![peluko00](https://github.com/peluko00.png?size=30px)](https://github.com/peluko00) [![miquelalzanillas](https://github.com/miquelalzanillas.png?size=30px)](https://github.com/miquelalzanillas) | Bookstore management system for Odoo
-[bookstore_mgmt_google_books_api](bookstore_mgmt_google_books_api/) | 17.0.1.1.0 | [![peluko00](https://github.com/peluko00.png?size=30px)](https://github.com/peluko00) [![miquelalzanillas](https://github.com/miquelalzanillas.png?size=30px)](https://github.com/miquelalzanillas) | Bookstore integration with Google Books API
+[bookstore_mgmt](bookstore_mgmt/) | 17.0.1.1.0 | [![peluko00](https://github.com/peluko00.png?size=30px)](https://github.com/peluko00) [![miquelalzanillas](https://github.com/miquelalzanillas.png?size=30px)](https://github.com/miquelalzanillas) | Bookstore management system for Odoo
+[bookstore_mgmt_google_books_api](bookstore_mgmt_google_books_api/) | 17.0.1.2.0 | [![peluko00](https://github.com/peluko00.png?size=30px)](https://github.com/peluko00) [![miquelalzanillas](https://github.com/miquelalzanillas.png?size=30px)](https://github.com/miquelalzanillas) | Bookstore integration with Google Books API
 
 [//]: # (end addons)
 
