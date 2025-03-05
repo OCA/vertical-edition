@@ -57,10 +57,10 @@ Authors
 Contributors
 ------------
 
-- [APSL-Nagarro](https://apsl.tech):
+-  [APSL-Nagarro](https://apsl.tech):
 
-  - Miquel Alzanillas <malzanillas@apsl.net>
-  - Antoni Marroig <amarroig@apsl.net>
+   -  Miquel Alzanillas <malzanillas@apsl.net>
+   -  Antoni Marroig <amarroig@apsl.net>
 
 Maintainers
 -----------
