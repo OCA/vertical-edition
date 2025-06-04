@@ -21,8 +21,8 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[bookstore_mgmt](bookstore_mgmt/) | 17.0.3.0.0 | [![peluko00](https://github.com/peluko00.png?size=30px)](https://github.com/peluko00) [![miquelalzanillas](https://github.com/miquelalzanillas.png?size=30px)](https://github.com/miquelalzanillas) | Bookstore management system for Odoo
-[bookstore_mgmt_google_books_api](bookstore_mgmt_google_books_api/) | 17.0.1.2.0 | [![peluko00](https://github.com/peluko00.png?size=30px)](https://github.com/peluko00) [![miquelalzanillas](https://github.com/miquelalzanillas.png?size=30px)](https://github.com/miquelalzanillas) | Bookstore integration with Google Books API
+[bookstore_mgmt](bookstore_mgmt/) | 17.0.3.0.0 | <a href='https://github.com/peluko00'><img src='https://github.com/peluko00.png' width='32' height='32' style='border-radius:50%;' alt='peluko00'/></a> <a href='https://github.com/miquelalzanillas'><img src='https://github.com/miquelalzanillas.png' width='32' height='32' style='border-radius:50%;' alt='miquelalzanillas'/></a> | Bookstore management system for Odoo
+[bookstore_mgmt_google_books_api](bookstore_mgmt_google_books_api/) | 17.0.1.2.0 | <a href='https://github.com/peluko00'><img src='https://github.com/peluko00.png' width='32' height='32' style='border-radius:50%;' alt='peluko00'/></a> <a href='https://github.com/miquelalzanillas'><img src='https://github.com/miquelalzanillas.png' width='32' height='32' style='border-radius:50%;' alt='miquelalzanillas'/></a> | Bookstore integration with Google Books API
 
 [//]: # (end addons)
 
